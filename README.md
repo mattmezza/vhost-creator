@@ -7,7 +7,7 @@ It supports both ubuntu and centos (be careful to write `ubuntu` or `centos` in 
 
 Instructions:
 - `mkdir ~/scripts && cd $_`
-- `wget https://raw.githubusercontent.com/mattmezza/vhost-creator/vvhost-creator.sh`
+- `wget https://raw.githubusercontent.com/mattmezza/vhost-creator/master/vhost-creator.sh`
 - `chmod +x vhost-creator.sh`
 - `sudo ./vhost-creator.sh`
 - follow Instructions

@@ -1,7 +1,7 @@
 #!/bin/bash
 # This script is used for create virtual hosts on CentOs.
 # Created by alexnogard from http://alexnogard.com
-# Improved by mattmezza from http://you.canmakethat.com
+# Improved by mattmezza from http://matteomerola.me
 # Feel free to modify it
 #   PARAMETERS
 #

@@ -44,7 +44,7 @@ elif [ "$osname" != "ubuntu" ]; then
   exit 1;
 fi
 
-echo "Enter the server name your want"
+echo "Enter the server name you want"
 read -p "e.g. mydomain.tld (without www) : " servn
 echo "Enter a CNAME"
 read -p "e.g. www or dev for dev.website.com : " cname

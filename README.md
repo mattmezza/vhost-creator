@@ -12,6 +12,8 @@ Instructions:
 - `sudo ./vhost-creator.sh`
 - follow Instructions
 
+or for the most adventurous just run `curl -s https://raw.githubusercontent.com/mattmezza/vhost-creator/master/install.sh | sh` to install it globally for your user (you can use the script afterwards with `sudo vhost-creator`)
+
 Don't forget to add a A record from your DNS pointing to your web server IP address.
 
 You can also mv the script to a system wide bin folder or add it to your bash profile.

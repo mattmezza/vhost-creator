@@ -1,8 +1,10 @@
 #!/bin/bash
 
 OLD=`pwd`
-mkdir ~/scripts && cd $_
+INSTALL_DIR=/usr/local/bin
+cd $INSTALL_DIR
 wget https://raw.githubusercontent.com/mattmezza/vhost-creator/master/vhost-creator.sh
-chmod +x vhost-creator.sh
-echo 'Installed successfully in `pwd`'
+mv vhost-creator.sh vhost-creator
+chmod +x vhost-creator
+echo "Installed successfully in $INSTALL_DIR"
 cd $OLD
